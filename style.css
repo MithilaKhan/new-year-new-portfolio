@@ -3,9 +3,9 @@ margin: 0px;
 }
 /* starting of heading part */
 .header{
-   height: 630px;
+   height: 250px;
    background-image: url(images/banner/banner3.png)  ;
-  background-size: contain;
+   background-size: contain;
    background-repeat: no-repeat;
    text-align: right;
    padding-top: 12%;
@@ -31,18 +31,177 @@ margin: 0px;
 }
 /* end header part */
 
+
+
 /* starting My failures of previous year */
 .section1{
    display: flex;
-   margin-bottom: 20%;
+   gap: 35px;
+   margin-bottom: 90px;
    
   }
   .section1-img{
-     
-    
-  
-  }
+     padding-left: 18%;
+   }
+
   .section1-body{
      list-style-type: none;
+     margin-top: 100px;
+    
+    margin-right: 13%;
      
-  }
+     }
+.section1-title{
+   font-size: 25px;
+   font-family: 'Open Sans', sans-serif;
+
+}
+.section1-list{
+   font-size: 12px;
+   list-style: none;
+   padding-left: 8px;
+   padding-top:8px 8px ;
+   color: grey;
+
+}
+.paragraph2{
+   font-size: 12px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+  color: grey;
+
+}
+/* end of section1 or My failures of previous year */
+
+/* starting My Plans */
+.section2-title{
+   font-size: 25px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+}
+.section2-boss-div{
+   margin-left: 25%;
+   margin-right: 5%;
+   margin-top: 5%;
+}
+.section2-div1{
+   display:inline-block;
+   margin-right:80px ;
+   padding-left: 17%;
+}
+.section2-div2{
+   display:inline-block;
+   margin-right:80px ;
+}
+.section2-div3{
+   display:inline-block;
+   margin-right:80px ;
+}
+.section2-div4{
+   display:inline-block;
+   margin-right:80px ;
+}
+/* end of my plan */
+
+/* starting of Awlays keep a positive mindset */
+.section3-div{
+   height: 150px;
+   background-image: url(./images/watch.png) ,url(./images/gradient1.png);
+   background-blend-mode: multiply;
+   margin-top: 90px;
+   margin-bottom: 100px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-left: 150px;
+   margin-right: 150px;
+   padding-top: 37px;
+   padding-left: 40px;
+   border-radius: 10px;
+   
+}
+/* End of Awlays keep a positive mindset */
+/* start of contact  */
+.contact{
+   height:400px ;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 50px;
+   
+   background-image: url(images/bg.png);
+ 
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.contact-form{
+   margin-left:30% ;
+   margin-top: 30px;
+}
+.contact-input{
+   
+   background:none;
+   height: 35px;
+   width: 220px;
+   border-radius: 5px;
+   border-color:rgb(42, 139, 250) ;
+   margin-top: 20px;
+
+}
+
+/* footer */
+.footer{
+   display: flex;
+   gap: 120px;
+   height: 280px;
+   background-color: black;
+   background-size: contain;
+   padding-left: 11%;
+   padding-top: 8%;
+   padding-right: 11%;
+}
+.footer-left{
+   color: white;
+
+}
+.footer-right{
+   padding-bottom: 18%;
+   
+   
+
+}
+.footer-title{
+   font-size: 32px;
+
+}
+.footer-paragraph{
+   font-size: 12px;
+   color: gray;
+   padding: 8px;
+}
+.icons{
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 13px;
+}
+.footer-title2{
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   padding-bottom: 10px;
+}
+.email{
+   color: white;
+   background:none;
+   height: 35px;
+   width: 220px;
+   border-radius: 5px;
+   
+   }
+.btn2{
+   background-color: rgb(42, 139, 250);
+   color:white;
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   width: 110px;
+   margin-top: 20px;
+}
+/* end of footer section */
