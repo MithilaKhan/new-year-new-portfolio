@@ -1,0 +1,48 @@
+ *{
+margin: 0px;
+}
+/* starting of heading part */
+.header{
+   height: 630px;
+   background-image: url(images/banner/banner3.png)  ;
+  background-size: contain;
+   background-repeat: no-repeat;
+   text-align: right;
+   padding-top: 12%;
+   padding-right: 10%;
+   color: white;
+   padding-bottom: 200px;
+
+}
+.header-title{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 40px;
+   margin-bottom: 8px;
+}
+
+.btn{
+   background-color: white;
+   color:rgb(42, 139, 250);
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   width: 110px;
+   margin-top: 20px;
+}
+/* end header part */
+
+/* starting My failures of previous year */
+.section1{
+   display: flex;
+   margin-bottom: 20%;
+   
+  }
+  .section1-img{
+     
+    
+  
+  }
+  .section1-body{
+     list-style-type: none;
+     
+  }
